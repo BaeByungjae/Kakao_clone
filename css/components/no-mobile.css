@@ -1,0 +1,41 @@
+@keyframes mobile {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: none;
+  }
+}
+#no-mobile {
+  position: absolute;
+  z-index: 99;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(#e66465, #9198e5);
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 600;
+  color: whitesmoke;
+}
+#no-mobile div {
+  padding: 15px 0px;
+}
+#no-mobile div:first-child {
+  animation: mobile 1s ease-in-out infinite;
+}
+#no-mobile div:last-child {
+  animation: mobile 1s ease-in-out infinite;
+  animation-delay: 0.5s;
+}
+@media screen and (max-width: 500px) {
+  #no-mobile {
+    display: none;
+  }
+}

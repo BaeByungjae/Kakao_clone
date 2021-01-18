@@ -1,0 +1,5 @@
+.chatting:hover {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to kokoa Talk</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+        <!--To DO : Wifi Icon-->
+      </div>
+      <div class="status-bar__column">
+        <!--어떤 칼럼인지 특정하기 위해서-->
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+        <!--배터리 아이콘-->
+        <!--라이트닝 아이콘-->
+      </div>
+    </div>
+    <header class="screen-header">
+      <h1 class="screen-header__title">Chats</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="far fa-comment-dots fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <span
+          ><a href="settings.html">
+            <div class="screen-header__setting-dot dot"></div>
+            <i class="fas fa-cog fa-lg"> </i
+          ></a>
+        </span>
+      </div>
+    </header>
+    <main class="friends-screen">
+      <a href="chat.html">
+        <div class="user-component chatting">
+          <div class="user-component__column">
+            <img
+              src="https://akns-images.eonline.com/eol_images/Entire_Site/201909/rs_600x600-190109152451-600x600-cristianoronaldo-gj-1-9-19.jpg?fit=around%7C1080:1080&output-quality=90&crop=1080:1080;center,top"
+              class="user-component__avatar user-component__avatar--xl"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Cristiano_Ronaldo</h4>
+              <h6 class="user-component__subtitle">
+                Cristiano is best striker!
+              </h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span>21:22</span>
+            <div>
+              <div class="badge">1</div>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a href="chat2.html">
+        <div class="user-component chatting">
+          <div class="user-component__column">
+            <img
+              src="https://search.pstatic.net/common/?src=http%3A%2F%2Fcafefiles.naver.net%2FMjAyMDA2MjBfNTcg%2FMDAxNTkyNjM0MTAxMDk4.f_hExA3NLfGWar5syxF_90xc_lcIB0NGke6cfjzKgg4g.McqdwLdYW7FDiCY6bxWmZGmD1ousDO0Ejr7hshzvNpEg.PNG%2FexternalFile.png&type=a340"
+              class="user-component__avatar user-component__avatar--xl"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Lionel_Messi</h4>
+              <h6 class="user-component__subtitle">Hello Cristiano~</h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span>23:10</span>
+            <div>
+              <div class="badge">2</div>
+            </div>
+          </div>
+        </div>
+      </a>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html">
+            <i class="far fa-user fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <i class="fas fa-comment fa-2x">
+              <div class="nav__notification badge">1</div>
+            </i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html">
+            <i class="fas fa-search fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <i class="fas fa-ellipsis-h fa-2x">
+              <div class="nav__dot dot"></div
+            ></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div id="no-mobile">
+      <div>Your screen is so big!!</div>
+      <div>Sclaedown to 500px!!</div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
